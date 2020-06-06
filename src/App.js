@@ -51,6 +51,12 @@ class App extends Component {
           isAuthenticated: false,
         })
     });
+  }else {
+    this.setState({
+      isLoading: false,
+      user: {},
+      isAuthenticated: false,
+    })
   }
 }
   
